@@ -5,6 +5,7 @@ export default class ExamplePlugin extends Plugin {
 
 	onload() {
 		this.statusBarElement = this.addStatusBarItem().createEl("span");
+		// this.statusBarElement.textContent = "hello";
 
 		this.readActiveFileAndUpdateLineCount();
 
