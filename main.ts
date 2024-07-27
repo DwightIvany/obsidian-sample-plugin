@@ -35,7 +35,7 @@ export default class ExamplePlugin extends Plugin {
 
 	private updateLineCount(fileContent?: string) {
 		const count = fileContent ? fileContent.split(/\r\n|\r|\n/).length : 0;
-		const linesWord = count === 1 ? "line" : "lines";
+		const linesWord = count === 1 ? "line" : "hello lines";
 		this.statusBarElement.textContent = `${count} ${linesWord}`;
 	}
 }
