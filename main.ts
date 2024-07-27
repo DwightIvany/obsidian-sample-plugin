@@ -1,3 +1,5 @@
+// script counts lines and says hello in the status bar
+
 import { Plugin } from "obsidian";
 
 export default class ExamplePlugin extends Plugin {
