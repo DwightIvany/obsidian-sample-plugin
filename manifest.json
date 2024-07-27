@@ -3,7 +3,7 @@
 	"name": "DI Plugin",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Dwight's DI Demo of capabilities of the Obsidian API.",
+	"description": "Dwight's plugin that says hello and counts lines on status bar in Obsidian.",
 	"author": "Dwight Ivany",
 	"authorUrl": "https://github.com/DwightIvany/obsidian-sample-plugin",
 	"fundingUrl": "https://github.com/DwightIvany/obsidian-sample-plugin",
